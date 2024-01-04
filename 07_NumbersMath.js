@@ -37,22 +37,42 @@ const hunderds = 100000000;
 //abs() method 
 // this converts the value in absolute form like if there is negative value then it will change it to positive
 
-console.log(Math.abs(-10))  // output = 10;
+//console.log(Math.abs(-10))  // output = 10;
 
 
 //round() method
 // this will change the value and make it round off the number if the value of decimal is above .5 then it will round off to the big number and vise versa
-console.log(Math.round(4.6)) // output: 5
+//console.log(Math.round(4.49)) // output: 4
+//console.log(Math.round(4.50)) // output: 5
 
 
 //ceil() method
 // this will the choose the highest value only while rounding off
-console.log(Math.ceil(4.6)) // output: 5
+//console.log(Math.ceil(4.6)) // output: 5
 
 
 //floor() method
 // this will round off the number to lowest 
-console.log(Math.floor(4.6)) // output: 5
+//console.log(Math.floor(4.6)) // output: 4
 
-//
-//
+
+
+//max and min method
+console.log(Math.max(2,4,6,1,9,0))
+console.log(Math.min(2,4,6,1,9,0))
+
+
+
+//random() method
+//random values always come in between 0 to 1 only
+
+console.log(Math.random());
+console.log(Math.random()*10 + 1)
+console.log(Math.floor(Math.random()*10) + 1)
+
+const min = 10 
+const max = 20
+// this is the important formula this is used in so many place's
+console.log(Math.floor(Math.random() * (max-min + 1)) + min);
+
+
