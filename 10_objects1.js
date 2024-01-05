@@ -4,6 +4,8 @@
 
 //this file contains details about object literals only
 //object literals
+const object = {}  // this is non singleton object
+
 const mySym = Symbol("key1")
 
 const jsUser = {
