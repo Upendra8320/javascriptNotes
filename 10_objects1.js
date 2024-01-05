@@ -23,7 +23,7 @@ const jsUser = {
 // console.log(jsUser["full name"])
 // console.log(jsUser[mySym]) // this a way to access the symbol in objects 
 // console.log(typeof jsUser[mySym])
-
+// console.log(jsUser.lastLoginDays[0])
 
 jsUser.name = "upendra"; //updating values in object
 // console.log(jsUser);
@@ -48,5 +48,5 @@ jsUser.greeting = function(){
 jsUser.greetingTwo = function(){
     console.log(`hello world ${name}`) 
 }
-jsUser.greetingTwo();
+// jsUser.greetingTwo();
 
