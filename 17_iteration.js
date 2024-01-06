@@ -160,3 +160,66 @@ myCoding.forEach( (item) => {
     
     console.log(item.languageName);
 } )
+
+
+
+
+//map method (Array transformation):
+// Creates a new array by applying a function to each element of an existing array.
+
+const array = [1, 2, 3, 4, 5];
+
+const squaredValues = array.map(value => value ** 2);
+console.log(squaredValues);
+// Output: [1, 4, 9, 16, 25]
+
+
+//filter method (Array filtering):
+//Creates a new array with elements that satisfy a condition specified in a callback function.
+
+//const array = [1, 2, 3, 4, 5];
+const evenValues = array.filter(value => value % 2 === 0);
+console.log(evenValues);
+// Output: [2, 4]
+
+
+
+
+
+
+
+//reduce method
+// const myNums = [1, 2, 3]
+
+// // const myTotal = myNums.reduce(function (acc, currval) {
+// //     console.log(`acc: ${acc} and currval: ${currval}`);
+// //     return acc + currval
+// // }, 0)
+
+// const myTotal = myNums.reduce( (acc, curr) => acc+curr, 0)
+
+// console.log(myTotal);
+
+
+// const shoppingCart = [
+//     {
+//         itemName: "js course",
+//         price: 2999
+//     },
+//     {
+//         itemName: "py course",
+//         price: 999
+//     },
+//     {
+//         itemName: "mobile dev course",
+//         price: 5999
+//     },
+//     {
+//         itemName: "data science course",
+//         price: 12999
+//     },
+// ]
+
+// const priceToPay = shoppingCart.reduce((acc, item) => acc + item.price, 0)
+
+// console.log(priceToPay);
