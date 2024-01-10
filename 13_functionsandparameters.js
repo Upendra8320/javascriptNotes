@@ -1,5 +1,8 @@
 //functions in javascript
 
+// type of function is function
+// but function is also a function and also an object
+
 // fucntion without argument
 function sayMyName(){
     console.log("U")
